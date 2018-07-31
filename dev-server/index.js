@@ -1,5 +1,8 @@
 import express from 'express';
-const app = express()
+const app = express();
+import { registerRoutes } from './routes';
+
+registerRoutes(app);
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
