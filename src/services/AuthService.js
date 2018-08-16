@@ -15,8 +15,13 @@ export function login(user) {
         });
 }
 
+export function logout() {
+    localStorage.clear();
+    store.dispatch('authenticate');
+}
+
 function setToken(token) {
-    localStorage.setItem('token', JSON.stringify(token));
+    localStorage.setItem('token', token);
     store.dispatch('authenticate');
 }
 
@@ -31,3 +36,4 @@ export function getUserId() {
 export function registerUser(user) {
     return http().post('/register', user);
 }
+
