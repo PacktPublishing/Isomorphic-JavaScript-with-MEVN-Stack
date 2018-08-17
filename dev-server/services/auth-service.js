@@ -26,3 +26,19 @@ export function decodeToken(req) {
         return null;
     }
 }
+
+export function getUsername(req) {
+    const token = decodeToken(req);
+    if (!token) {
+        return null;
+    }
+    return token.user.username;
+}
+
+export function getUserId(req) {
+    const token = decodeToken(req);
+    if (!token) {
+        return null;
+    }
+    return token.user.id;
+}
