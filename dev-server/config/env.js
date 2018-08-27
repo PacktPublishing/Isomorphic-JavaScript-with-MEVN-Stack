@@ -21,8 +21,8 @@ function setDevEnv(app) {
 }
 
 function setProdEnv(app) {
-    process.env.DB_URL = 'mongodb://localhost:27017/prod-db';
+    process.env.DB_URL = 'mongodb://user:password123@ds133642.mlab.com:33642/vue-db';
     process.env.TOKEN_SECRET = '9f4d50bfa6b2450a9ec766fc5104948e';
     app.use(bodyParser.json());
-    app.use(express.static(__dirname + '/../dist'));
+    app.use(express.static(__dirname + '/../../dist'));
 }
