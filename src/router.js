@@ -22,8 +22,8 @@ export default new Router({
       path: '/tasks',
       name: 'tasks-all',
       component: TasksAll,
-      beforeEnter: (toolbar, from, next) => {
-        // Navigation Guard protects this route. User must be logged in, else will be routed to login page
+      beforeEnter: (to, from, next) => {
+         // Navigation Guard protects this route. User must be logged in, else will be routed to login page
         if (isLoggedIn) {
           next();
         } else {
@@ -35,7 +35,7 @@ export default new Router({
       path: '/tasks/new',
       name: 'tasks-create',
       component: TasksCreate,
-      beforeEnter: (toolbar, from, next) => {
+      beforeEnter: (to, from, next) => {
         if (isLoggedIn) {
           next();
         } else {
@@ -47,7 +47,7 @@ export default new Router({
       path: '/tasks/:id',
       name: 'tasks-edit',
       component: TasksEdit,
-      beforeEnter: (toolbar, from, next) => {
+      beforeEnter: (to, from, next) => {
         if (isLoggedIn) {
           next();
         } else {
@@ -59,7 +59,7 @@ export default new Router({
       path: '/register',
       name: 'register',
       component: Register,
-      beforeEnter: (toolbar, from, next) => {
+      beforeEnter: (to, from, next) => {
         if (!isLoggedIn) {
           next();
         } else {
@@ -71,7 +71,7 @@ export default new Router({
       path: '/login',
       name: 'login',
       component: Login,
-      beforeEnter: (toolbar, from, next) => {
+      beforeEnter: (to, from, next) => {
         if (!isLoggedIn) {
           next();
         } else {
