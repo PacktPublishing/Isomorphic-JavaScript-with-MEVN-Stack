@@ -1,0 +1,75 @@
+* {
+    color: #fff;
+}
+
+.custom-bg-dark {
+    background-color: #373f46 !important;
+}
+
+nav.navbar {
+    height: 6rem;
+}
+
+a.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+li.nav-item a {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    div#navbarCollapse {
+        width: 100%;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        background-color: #373f46;
+    }
+}
+
+div#app-container {
+    position: fixed;
+    top: 96px;
+    left: 0;
+    bottom: 96px;
+    width: 100%;
+    padding: 2rem;
+    background-color: #1d2733;
+    overflow: auto;
+}
+
+footer#custom-footer {
+    height: 6rem;
+    background-color: #373f46;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#custom-home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #32ACED !important;
+}
+
+.btn-success {
+    background-color: #4fc08d !important;
+}
+
+.btn-success:hover {
+    background-color: #3da978;
+}
