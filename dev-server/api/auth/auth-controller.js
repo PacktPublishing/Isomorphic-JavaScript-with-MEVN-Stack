@@ -8,6 +8,10 @@ export function index(req, res) {
     return res.json();
 }
 
+/**
+ * Validates the index request method
+ * @param {HTTP Request Body} body 
+ */
 function validateIndex(body) {
     let errors = '';
 
