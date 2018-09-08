@@ -7,6 +7,6 @@ const taskSchema = new mongoose.Schema({
     completed: { type: Boolean, default: false },
     author: { type: mongoose.Schema.Types.ObjectId, ref: 'user' }
 });
-taskSchema.set('timestamps', true);
+taskSchema.set('timestamps', true); // Adds create_at and updated_at timestamps
 
 export default mongoose.model('task', taskSchema);
