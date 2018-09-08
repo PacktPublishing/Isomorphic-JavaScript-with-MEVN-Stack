@@ -13,6 +13,11 @@ export function requireLogin(req, res, next) {
     next();
 }
 
+/**
+ * Will verify that the token came from this application (using secret). Then,
+ * will decode it and grab the signed data (username, etc.) and return decoded token
+ * @param {HTTP Request} req 
+ */
 export function decodeToken(req) {
     const token = req.headers.authorization || req.headers['authorization'];
 
