@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Login Route</h1>
+        <h1>Login</h1>
         <form class="custom-form" v-on:submit.prevent="onSubmit">
             <div class="form-group">
                 <label for="username">Username</label>
