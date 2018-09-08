@@ -23,7 +23,7 @@ userSchema.pre('save', function(next) {
     this.first = this.first.toLowerCase();
     this.last = this.last.toLowerCase();
     const unsafePassword = this.password;
-    this.password = bcrypt.hashSync(unsafePassword);
+    this.password = bcrypt.hashSync(unsafePassword); // Will encrypt the user's password
     next();
 });
 
