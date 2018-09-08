@@ -24,6 +24,7 @@ function setDevEnv(app) {
     app.use(bodyParser.json()); // Allows parsing JSON from the client
     app.use(morgan('dev')); // Log HTTP Requests to the node console (for debugging purposes)
     app.use(cors()); // Enable Cross Origin Requests, since Vue.JS is on a different origin
+    process.env.DB_URL = 'mongodb://localhost:27017/vue-db';
 }
 
 /**
@@ -31,6 +32,7 @@ function setDevEnv(app) {
  * @param {Express App} app 
  */
 function setProdEnv(app) {
+    process.env.DB_URL = 'mongodb://localhost:27017/prod-db';
     app.use(bodyParser.json());
     app.use(express.static(__dirname + '/../dist')); // Feeds the public/dist directory to the client 
 }
