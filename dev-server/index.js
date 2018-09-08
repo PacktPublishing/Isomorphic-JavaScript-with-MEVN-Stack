@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
             'Running server in development mode.'
         );
     } else {
+        // Returns the main index file in production environment
         return res.sendFile('index.html', { root: __dirname + '/../dist/' });
     }
 })
