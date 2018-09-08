@@ -46,7 +46,7 @@ export function update(req, res) {
 
         const task = req.body.task;
         task.author = user._id;
-        task.dueDate = moment(task.dueDate);
+        task.dueDate = moment(task.dueDate); // Formats the due date to a proper date format
         Task.findByIdAndUpdate({ _id: task._id }, task, error => {
             if (error) {
                 return res.status(500).json();
