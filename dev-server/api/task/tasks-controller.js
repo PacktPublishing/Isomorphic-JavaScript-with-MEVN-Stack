@@ -11,6 +11,7 @@ export function index(req, res) {
         }
         return res.status(200).json({ tasks: tasks });
     }).populate('author', 'username', 'user');
+    // Populate will find the author that created the task and add it to the task (username only)
 }
 
 export function create(req, res) {
@@ -57,7 +58,6 @@ export function update(req, res) {
 
 export function remove(req, res) {
     const id = auth.getUserId(req);
-    console.log(req.params.id);
     Task.findOne({ _id: req.params.id }, (error, task) => {
         if (error) {
             return res.status(500).json();

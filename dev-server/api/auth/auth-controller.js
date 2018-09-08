@@ -3,10 +3,13 @@ import User from '../../model/user-model';
 import { generateJWT } from '../../services/auth-service';
 
 export function index(req, res) {
+    // First verify that the user provided a username and a password
     const validation = validateIndex(req.body);
     if (!validation.isValid) {
         return res.status(400).json({ message: validation.message });
     }
+
+    // Find the user in the database
     User.findOne({ username: req.body.username.toLowerCase() }, (error, user) => {
         if (error) {
             return res.status(500).json();
