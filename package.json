@@ -18,7 +18,7 @@
     "jquery": "^3.3.1",
     "jsonwebtoken": "^8.3.0",
     "moment": "^2.22.2",
-    "mongoose": "^5.2.7",
+    "mongoose": "^5.7.5",
     "popper.js": "^1.14.3",
     "url-parse": "^1.4.3",
     "vue": "^2.5.16",
