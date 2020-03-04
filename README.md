@@ -1,8 +1,5 @@
-# Isomorphic-JavaScript-with-MEVN-Stack
+# Isomorphic JavaScript with MEVN Stack
 
-Isomorphic JavaScript with MEVN Stack[video], published by Packt
-
-# Blockchain Application Development in 7 Days [Video]
 This is the code repository for [Isomorphic JavaScript with MEVN Stack[Video]](https://mandrillapp.com/track/click/8294657/www.packtpub.com?p=eyJzIjoibUxrTXlHcXJtQkFuSFhoQkF3V3RWODhtX0w4IiwidiI6MSwicCI6IntcInVcIjo4Mjk0NjU3LFwidlwiOjEsXCJ1cmxcIjpcImh0dHBzOlxcXC9cXFwvd3d3LnBhY2t0cHViLmNvbVxcXC93ZWItZGV2ZWxvcG1lbnRcXFwvaXNvbW9ycGhpYy1qYXZhc2NyaXB0LW1ldm4tc3RhY2stdmlkZW9cIixcImlkXCI6XCI2MDRkMzRjNmFmNTM0NDE3OTM1ZWMzNjAzOWE5YWZhOVwiLFwidXJsX2lkc1wiOltcImNiMTg2ZGQ4NzhmMDBjNjE4OGYwNWRmNTJjZGM0YjRkZWU4OTcyOTNcIl19In0), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
 Do you want to build scalable, high-performance web apps? Harness the power of the JavaScript ecosystem to run, build, and test your full-stack applications. This course will guide you in building a full-stack app using Isomorphic JavaScript frameworks. You'll build web applications using the MEVN Stack in JavaScript.
