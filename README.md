@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Video for only $5 on PacktPub.com](https://www.packtpub.com/product/isomorphic-javascript-with-mevn-stack-video/9781789533118)
------
-*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Isomorphic JavaScript with MEVN Stack
 
 This is the code repository for [Isomorphic JavaScript with MEVN Stack[Video]](https://mandrillapp.com/track/click/8294657/www.packtpub.com?p=eyJzIjoibUxrTXlHcXJtQkFuSFhoQkF3V3RWODhtX0w4IiwidiI6MSwicCI6IntcInVcIjo4Mjk0NjU3LFwidlwiOjEsXCJ1cmxcIjpcImh0dHBzOlxcXC9cXFwvd3d3LnBhY2t0cHViLmNvbVxcXC93ZWItZGV2ZWxvcG1lbnRcXFwvaXNvbW9ycGhpYy1qYXZhc2NyaXB0LW1ldm4tc3RhY2stdmlkZW9cIixcImlkXCI6XCI2MDRkMzRjNmFmNTM0NDE3OTM1ZWMzNjAzOWE5YWZhOVwiLFwidXJsX2lkc1wiOltcImNiMTg2ZGQ4NzhmMDBjNjE4OGYwNWRmNTJjZGM0YjRkZWU4OTcyOTNcIl19In0), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
